@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docx-review-changes"
+version = "0.1.0"
+description = "Extract tracked changes and comments from a .docx file"
+requires-python = ">=3.9"
+
+[project.scripts]
+docx-review-changes = "docx_review_changes.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["docx_review_changes*"]
