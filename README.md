@@ -6,16 +6,16 @@ text — useful for reviewing edits without opening Word.
 
 ## Install
 
-Requires Python 3.9+ and [pipx](https://pipx.pypa.io/).
+Requires Python 3.9+ and [uv](https://docs.astral.sh/uv/).
 
 ```sh
-pipx install git+https://gitea.reground.org/will/docx-review-changes.git
+uv tool install git+https://gitea.reground.org/will/docx-review-changes.git
 ```
 
 To upgrade to the latest version later:
 
 ```sh
-pipx install --force git+https://gitea.reground.org/will/docx-review-changes.git
+uv tool install --force git+https://gitea.reground.org/will/docx-review-changes.git
 ```
 
 No external dependencies — the tool only uses the Python standard library.
